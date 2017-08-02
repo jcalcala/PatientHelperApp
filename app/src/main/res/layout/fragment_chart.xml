@@ -1,0 +1,37 @@
+<!--
+  ~ Copyright (c) 2017. All Rights Reserved.
+  -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alcala.patienthelperapp.ChartFragment" >
+
+    <LinearLayout
+        android:id="@+id/chartsLinearLayout"
+        style="@style/LinearLayoutStyles" >
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/chartsTV"
+            style="@style/MyTextView.Headers"
+            android:text="@string/charts" />
+
+        <Button
+            android:id="@+id/checkChartBtn"
+            style="@style/MyTextView.Button"
+            android:text="@string/check_charts"/>
+
+        <Button
+            android:id="@+id/checkVitalsBtn"
+            style="@style/MyTextView.Button"
+            android:text="@string/check_vitals"/>
+
+        <Button
+            android:id="@+id/checkTreatmentBtn"
+            style="@style/MyTextView.Button"
+            android:text="@string/check_treatment"/>
+
+    </LinearLayout>
+</ScrollView>

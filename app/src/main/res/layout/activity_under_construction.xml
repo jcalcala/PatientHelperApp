@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. All Rights Reserved.
+  -->
+<ScrollView
+    tools:context="com.alcala.patienthelperapp.UnderConstructionActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_style">
+
+    <LinearLayout
+        style="@style/LinearLayoutStyles">
+
+        <TextView
+            style="@style/MyTextView"
+            android:text="Activity Under Construction"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            style="@style/MyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sorry for the inconvenience"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/LinearLayoutStyles"
+            android:layout_marginTop="50dp">
+
+            <Button
+                style="@style/MyTextView.Button"
+                android:layout_marginLeft="30dp"
+                android:text="@string/sign_out"
+                android:onClick="signOutBtn"/>
+
+            <Button
+                style="@style/MyTextView.Button"
+                android:layout_marginLeft="50dp"
+                android:text="@string/home"
+                android:onClick="homeBtn"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

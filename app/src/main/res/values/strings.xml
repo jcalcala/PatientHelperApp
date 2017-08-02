@@ -1,0 +1,54 @@
+<!--
+  ~ Copyright (c) 2017. All Rights Reserved.
+  -->
+
+<resources>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+    <string name="app_name">Patient Helper App</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="first_name">First Name</string>
+    <string name="incorrect_email_or_password">Incorrect Email or Password</string>
+    <string name="do_you_want_to_sign_up">Do you want to sign up?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="cancel">cancel</string>
+    <string name="chart">Chart</string>
+    <string name="appointments">Appointments</string>
+    <string name="contact_us">Contact Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="providers">Providers</string>
+    <string name="charts">Charts</string>
+    <string name="check_charts">Check charts</string>
+    <string name="delete_provider">delete provider</string>
+    <string name="search_provider">search provider</string>
+    <string name="check_appointments">Check appointments</string>
+    <string name="make_appointments">Make appointments</string>
+    <string name="cancel_appointment">Cancel appointment</string>
+    <string name="add_provider">Add provider</string>
+    <string name="check_vitals">check vitals</string>
+    <string name="check_treatment">check treatment</string>
+    <string name="sign_out">sign out</string>
+    <string name="home">home</string>
+</resources>

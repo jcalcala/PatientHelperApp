@@ -1,0 +1,39 @@
+<!--
+  ~ Copyright (c) 2017. All Rights Reserved.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alcala.patienthelperapp.MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:id="@+id/mainFragmentLayout"
+        style="@style/LinearLayoutStyles" >
+
+        <TextView
+            style="@style/MyTextView.Headers"
+            android:id="@+id/section_label" />
+
+        <Button
+            android:id="@+id/chartBtn"
+            android:text="@string/chart"
+            style="@style/MyTextView.Button"/>
+
+        <Button
+            android:id="@+id/appointmentsBtn"
+            android:text="@string/appointments"
+            style="@style/MyTextView.Button" />
+
+        <Button
+            android:id="@+id/providersBtn"
+            android:text="@string/providers"
+            style="@style/MyTextView.Button" />
+
+        <Button
+            android:id="@+id/contactUsBtn"
+            android:text="@string/contact_us"
+            style="@style/MyTextView.Button" />
+    </LinearLayout>
+</RelativeLayout>

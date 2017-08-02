@@ -1,0 +1,37 @@
+<!--
+  ~ Copyright (c) 2017. All Rights Reserved.
+  -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alcala.patienthelperapp.ProvidersFragment" >
+
+    <LinearLayout
+        android:id="@+id/providersLinearLayout"
+        style="@style/LinearLayoutStyles">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/providersTV"
+            style="@style/MyTextView.Headers"
+            android:text="@string/providers" />
+
+        <Button
+            android:id="@+id/addProviderBtn"
+            style="@style/MyTextView.Button"
+            android:text="@string/add_provider"/>
+
+        <Button
+            android:id="@+id/deleteProviderBtn"
+            style="@style/MyTextView.Button"
+            android:text="@string/delete_provider"/>
+
+        <Button
+            android:id="@+id/searchProviderBtn"
+            style="@style/MyTextView.Button"
+            android:text="@string/search_provider"/>
+
+    </LinearLayout>
+</ScrollView>

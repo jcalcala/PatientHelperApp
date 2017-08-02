@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. All Rights Reserved.
+  -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aba09e"
+    android:textAlignment="center"
+    android:paddingTop="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <TextView
+        style="@style/MyTextView"
+        android:id="@+id/msg1TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/incorrect_email_or_password"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        style="@style/MyTextView"
+        android:id="@+id/msg2TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg1TV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/do_you_want_to_sign_up" />
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/msg1TV"
+        android:layout_alignStart="@+id/msg1TV"
+        android:layout_below="@+id/msg2TV"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/yes"
+        android:background="#c7c2c2"/>
+
+    <Button
+        android:id="@+id/cancelSignUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/signUpBtn"
+        android:layout_alignBottom="@+id/signUpBtn"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@+id/signUpBtn"
+        android:layout_toRightOf="@+id/signUpBtn"
+        android:text="@string/no"
+        android:background="#c7c2c2"/>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<!--
+  ~ Copyright (c) 2017. All Rights Reserved.
+  -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alcala.patienthelperapp.AppointmentsFragment" >
+
+    <LinearLayout
+        android:id="@+id/appointmentsLinearLayout"
+        style="@style/LinearLayoutStyles">
+
+        <TextView
+            android:id="@+id/appointmentsTV"
+            style="@style/MyTextView.Headers"
+            android:text="@string/appointments"/>
+
+        <Button
+            android:id="@+id/checkAppointmentBtn"
+            style="@style/MyTextView.Button"
+            android:text="@string/check_appointments"/>
+
+        <Button
+            android:id="@+id/makeAppointmentBtn"
+            style="@style/MyTextView.Button"
+            android:text="@string/make_appointments"/>
+
+        <Button
+            android:id="@+id/cancelAppointments"
+            style="@style/MyTextView.Button"
+            android:text="@string/cancel_appointment"/>
+
+    </LinearLayout>
+</ScrollView>
